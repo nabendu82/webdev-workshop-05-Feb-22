@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+
+body{
+    background-color: #f1d1d1; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color:lightblue;
+    padding: 10px
+}
+
+h1 {
+    color: blue;
+}
+
+h3{
+    color: rgb(10, 119, 8);
+}
+
+/* div{
+    font-size: 10px;
+} */
+
+p{
+    color: hsl(63, 90%, 15%);
+    font-family: 'Comforter', Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.2em;
+}
+
+#second-p{
+    color: hsl(312, 91%, 14%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+#box-model{
+    background-color: lightcyan;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+.categories{
+    border: 1px solid rgb(146, 141, 141);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    list-style: none;
+}
+
+.categories a{
+    text-decoration: none;
+    color: black;
+}
+
+.categories a:hover{
+    color: red;
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: 1px dotted #333;
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"]{
+    padding: 8px;
+    width: 100%;
+}
+
+.button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 0.2em;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: rgb(14, 5, 102);
+    color: white;
+}
+
+.button:hover{
+    background: darkmagenta;
+    cursor: pointer;
+}
+
+.position-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+    background-image: url('./images/unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.position-box h1{
+    position: absolute;
+    top: 140px;
+    left: 200px;
+}
+
+.position-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 200px;
+}
+
+.fixed-button{
+    position: fixed;
+    top: 20px;
+}
